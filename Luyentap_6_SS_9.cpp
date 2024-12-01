@@ -5,16 +5,25 @@ int main() {
     int rows = 0, cols = 0;
 
     while (1) {
-        printf("\nMENU\n");
-        printf("1. Nhap kich co va gia tri cac phan tu cua mang\n");
-        printf("2. In gia tri cac phan tu cua mang theo ma tran\n");
-        printf("3. In gia tri cac phan tu la le va tinh tong\n");
-        printf("4. In cac phan tu nam tren duong bien va tinh tich\n");
-        printf("5. In cac phan tu nam tren duong cheo chinh\n");
-        printf("6. In cac phan tu nam tren duong cheo phu\n");
-        printf("7. In ra dong co tong gia tri cac phan tu lon nhat\n");
-        printf("8. Thoat\n");
-        printf("Lua chon cua ban: ");
+        printf("\n MENU \n");
+        
+		printf("1. Nhap kich co va gia tri cac phan tu cua mang \n ");
+        
+		printf("2. In gia tri cac phan tu cua mang theo ma tran \n ");
+        
+		printf("3. In gia tri cac phan tu la le va tinh tong \n");
+        
+		printf("4. In cac phan tu nam tren duong bien va tinh tich \n ");
+        
+		printf("5. In cac phan tu nam tren duong cheo chinh \n ");
+        
+		printf("6. In cac phan tu nam tren duong cheo phu \n ");
+        
+		printf("7. In ra dong co tong gia tri cac phan tu lon nhat \n ");
+        
+		printf("8. Thoat \n ");
+        
+		printf("Lua chon cua ban: ");
 
         int choice;
         scanf("%d", &choice);
